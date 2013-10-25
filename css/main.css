@@ -1,205 +1,203 @@
-
-html { 
-  background: url("../images/background.png") no-repeat center center fixed; 
+/* line 2, ../_sass/main.scss */
+html {
+  background-image: url('../images/../images/background.png?1382697718');
+  background-repeat: no-repeat;
+  background-position: top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
+
+/* line 10, ../_sass/main.scss */
 .intro span {
   color: white;
   font-size: 36px;
   font-family: "optima";
   font-style: italic;
   margin-left: 30%;
-  
 }
 
-.container {
-  width: 940px;
-  height: 450px;
-  background-image: url("../images/credarp.png");
-
+/* line 18, ../_sass/main.scss */
+.header {
+  background-image: url('../images/../images/credarp.png?1382697338');
+  background-repeat: no-repeat;
+  background-position: top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-.container img {
+/* line 25, ../_sass/main.scss */
+.header .logo {
+  position: relative;
   width: 256px;
-  height: 235px;
-  margin-top: 34px;
-  margin-left: 36%;
+  margin-left: 50%;
+  margin-right: 50%;
+  left: -128px;
 }
-
-.intro{
+/* line 32, ../_sass/main.scss */
+.header .intro {
   width: 720px;
   height: 90px;
   text-align: center;
   line-height: 90px;
 }
-
-.menu{
-  width: 938px;
+/* line 38, ../_sass/main.scss */
+.header .menu {
   height: 70px;
-  background-color:rgba(0, 0, 0, 0.5);
-  margin-top: 21px;
-  margin-left: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
   font-size: 28px;
   font-family: 'Lato', sans-serif;
 }
-
-.menu a {
+/* line 44, ../_sass/main.scss */
+.header .menu a {
   color: white;
   text-decoration: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-
-
-
-.menu > ul {
+/* line 49, ../_sass/main.scss */
+.header .menu ul {
   list-style: none;
   margin: 0 auto;
   text-align: center;
 }
-
-.menu ul li {
-
+/* line 53, ../_sass/main.scss */
+.header .menu ul li {
   display: inline-block;
-  margin-top: 20px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 20px 50px;
 }
 
-
+/* line 64, ../_sass/main.scss */
 .about {
-
   height: 250px;
-  color: rgba(137,137,137,100);    
-  line-height: 1.8em; 
+  color: #898989;
+  line-height: 1.8em;
   background: #fafafa;
 }
 
+/* line 72, ../_sass/main.scss */
 .about-title {
- 
   height: 250px;
   font-family: "optima";
   font-size: 40px;
   text-align: center;
-
 }
 
+/* line 81, ../_sass/main.scss */
 .about-title p {
-
   vertical-align: middle;
   margin-top: 100px;
   font-style: italic;
-
 }
 
+/* line 89, ../_sass/main.scss */
 .about-us {
   height: 250px;
   font-family: 'Lato', sans-serif;
 }
 
+/* line 94, ../_sass/main.scss */
 .about-us p {
-  
   font-size: 18px;
   width: 600px;
   margin: 60px auto;
 }
 
-
+/* line 102, ../_sass/main.scss */
 .product {
-
-  height: 245px; 
+  height: 245px;
   background-image: url(../images/elbumproduct.png);
-
 }
 
+/* line 109, ../_sass/main.scss */
 .product-img {
-
   height: 245px;
 }
 
+/* line 114, ../_sass/main.scss */
 .product-info {
-
   height: 245px;
   font-family: "optima";
   font-size: 40px;
   text-align: center;
-  color: white; 
+  color: white;
 }
 
+/* line 123, ../_sass/main.scss */
 .product-info p {
   vertical-align: middle;
   margin-top: 100px;
   font-style: italic;
 }
 
-
+/* line 130, ../_sass/main.scss */
 .team_title {
-
   height: 150px;
   font-size: 40px;
-  color: rgba(137,137,137,100);
+  color: #898989;
   font-family: 'Lato', sans-serif;
   text-align: center;
   background: #fafafa;
 }
 
-.team_title p{
+/* line 140, ../_sass/main.scss */
+.team_title p {
   margin-top: 60px;
 }
 
-
+/* line 145, ../_sass/main.scss */
 .team {
- 
-  height: 600px; 
-  background-image:url(../images/team_member.jpg);
-  
+  height: 600px;
+  background-image: url(../images/team_member.jpg);
 }
 
+/* line 152, ../_sass/main.scss */
 .team img {
-  width:160px; 
-  height:160px;
+  width: 160px;
+  height: 160px;
   margin-left: 0;
 }
 
+/* line 158, ../_sass/main.scss */
 .span2 {
-  margin-left:-10px;
-  
+  margin-left: -10px;
 }
 
+/* line 163, ../_sass/main.scss */
 .member {
-  height: 560px;    
+  height: 560px;
   color: #E5E4E2;
   font-family: "optima";
   line-height: 1.3em;
 }
 
+/* line 170, ../_sass/main.scss */
 .member a {
-
   color: #E5E4E2;
   font-size: 18px;
 }
 
+/* line 176, ../_sass/main.scss */
 .member-title {
-
-  margin:15px 0 15px 0 ;
+  margin: 15px 0 15px 0;
   font-size: 18px;
-
 }
 
+/* line 183, ../_sass/main.scss */
 .member-bio {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
 
+/* line 188, ../_sass/main.scss */
 .member-link {
-
-  margin:10px 5px 0 5px;
+  margin: 10px 5px 0 5px;
 }
 
-
+/* line 194, ../_sass/main.scss */
 .footer {
   height: 30px;
   margin: 20px auto;
@@ -209,6 +207,7 @@ html {
   font-size: 18px;
 }
 
+/* line 203, ../_sass/main.scss */
 .contact-box {
   height: 500px;
 }
