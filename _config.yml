@@ -1,8 +1,6 @@
 name: Credarp
 URL: http://credarp.com
 description: "credarp"
-markdown: redcarpet
-pygments: true
 tagline: " We make web and native mobile app at Credarp. Our product is elbum.in, an analytic tool for sport teams to track, collect and organize their statistics. We also develop Ruby on Rails and iOS projects. This company was been estalblished by Roy, Brian and Labrada in July 2013."
 teamtitle: "WE MAKE AWESOME STUFF !"
 
@@ -22,7 +20,7 @@ members:
         class: "fa-twitter"
       - title: "Facebook"
         url: "https://www.facebook.com/chihwei.hu1"
-        class: "fa-facebook" 
+        class: "fa-facebook"
   - title: "Labrada| Designer"
     image: "web_head_labrada.png"
     bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
@@ -72,3 +70,11 @@ members:
       - title: "Facebook"
         url: "https://www.facebook.com/profile.php?id=100001421548102"
         class: "fa-facebook"
+
+## settings
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+pygments: true
+markdown: redcarpet
+exclude: [".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor"]
