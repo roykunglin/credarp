@@ -1,0 +1,282 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../_sass/main.scss */
+html {
+  background-image: url('../images/../images/background.png?1382697718');
+  background-repeat: no-repeat;
+  background-position: top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 10, ../_sass/main.scss */
+.intro span {
+  color: white;
+  font-size: 36px;
+  font-family: "optima";
+  font-style: italic;
+  margin-left: 30%;
+}
+
+/* line 18, ../_sass/main.scss */
+.header {
+  background-image: url('../images/../images/credarp.png?1382697338');
+  background-repeat: no-repeat;
+  background-position: top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 25, ../_sass/main.scss */
+.header .logo {
+  position: relative;
+  width: 256px;
+  margin-left: 50%;
+  margin-right: 50%;
+  left: -128px;
+}
+/* line 32, ../_sass/main.scss */
+.header .intro {
+  width: 720px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+}
+/* line 38, ../_sass/main.scss */
+.header .menu {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 44, ../_sass/main.scss */
+.header .menu a {
+  color: white;
+  text-decoration: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 49, ../_sass/main.scss */
+.header .menu ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 53, ../_sass/main.scss */
+.header .menu ul li {
+  display: inline-block;
+  margin: 20px 50px;
+}
+
+/* line 64, ../_sass/main.scss */
+.about {
+  height: 250px;
+  color: #898989;
+  line-height: 1.8em;
+  background: #fafafa;
+}
+
+/* line 72, ../_sass/main.scss */
+.about-title {
+  height: 250px;
+  font-family: "optima";
+  font-size: 40px;
+  text-align: center;
+}
+
+/* line 81, ../_sass/main.scss */
+.about-title p {
+  vertical-align: middle;
+  margin-top: 100px;
+  font-style: italic;
+}
+
+/* line 89, ../_sass/main.scss */
+.about-us {
+  height: 250px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 94, ../_sass/main.scss */
+.about-us p {
+  font-size: 18px;
+  width: 600px;
+  margin: 60px auto;
+}
+
+/* line 102, ../_sass/main.scss */
+.product {
+  height: 245px;
+  background-image: url(../images/elbumproduct.png);
+}
+
+/* line 109, ../_sass/main.scss */
+.product-img {
+  height: 245px;
+}
+
+/* line 114, ../_sass/main.scss */
+.product-info {
+  height: 245px;
+  font-family: "optima";
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+/* line 123, ../_sass/main.scss */
+.product-info p {
+  vertical-align: middle;
+  margin-top: 100px;
+  font-style: italic;
+}
+
+/* line 130, ../_sass/main.scss */
+.team_title {
+  height: 150px;
+  font-size: 40px;
+  color: #898989;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background: #fafafa;
+}
+
+/* line 140, ../_sass/main.scss */
+.team_title p {
+  margin-top: 60px;
+}
+
+/* line 145, ../_sass/main.scss */
+.team {
+  height: 600px;
+  background-image: url(../images/team_member.jpg);
+}
+
+/* line 152, ../_sass/main.scss */
+.team img {
+  width: 160px;
+  height: 160px;
+  margin-left: 0;
+}
+
+/* line 158, ../_sass/main.scss */
+.span2 {
+  margin-left: -10px;
+}
+
+/* line 163, ../_sass/main.scss */
+.member {
+  height: 560px;
+  color: #E5E4E2;
+  font-family: "optima";
+  line-height: 1.3em;
+}
+
+/* line 170, ../_sass/main.scss */
+.member a {
+  color: #E5E4E2;
+  font-size: 18px;
+}
+
+/* line 176, ../_sass/main.scss */
+.member-title {
+  margin: 15px 0 15px 0;
+  font-size: 18px;
+}
+
+/* line 183, ../_sass/main.scss */
+.member-bio {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 188, ../_sass/main.scss */
+.member-link {
+  margin: 10px 5px 0 5px;
+}
+
+/* line 194, ../_sass/main.scss */
+.footer {
+  height: 30px;
+  margin: 20px auto;
+  text-align: center;
+  color: #2B1B17;
+  font-family: "optima";
+  font-size: 18px;
+}
+
+/* line 203, ../_sass/main.scss */
+.contact-box {
+  height: 500px;
+}
