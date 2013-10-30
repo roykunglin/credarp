@@ -21,12 +21,12 @@ members:
       - title: "Facebook"
         url: "https://www.facebook.com/chihwei.hu1"
         class: "fa-facebook"
-  - title: "Labrada| Designer"
+  - title: "Labrada | Designer"
     image: "web_head_labrada.png"
     bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
     links:
       - title: "Facebook"
-        url: "http://brian.logdown.com/"
+        url: "https://www.facebook.com/labrada.chang"
         class: "fa-facebook"
       - title: "Twitter"
         url: "http://twitter.com/labradachang"
@@ -36,16 +36,16 @@ members:
     bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
     links:
       - title: "Blog"
-        url: "http://roykung.com/"
+        url: "http://about.roykung.com/"
         class: "fa-pencil"
       - title: "Github"
-        url: "http://http://github/roykunglin"
+        url: "http://http://github.com/roykunglin"
         class: "fa-github"
       - title: "Twitter"
         url: "http://twitter.com/roylinkung"
         class: "fa-twitter"
       - title: "Facebook"
-        url: "http://facebook"
+        url: "http://facebook.com/roylinkung"
         class: "fa-facebook"
   - title: "Gary | Developer"
     image: "web_head_gary.png"
@@ -73,8 +73,8 @@ members:
 
 ## settings
 
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 paginate: 10
 pygments: true
 markdown: redcarpet
-exclude: [".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor"]
+exclude: [".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor,CNAME"]
