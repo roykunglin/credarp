@@ -25,9 +25,11 @@ html {
   .logo {
     position: relative;
     width: 256px;
+    margin-top: 20px;
     margin-left: 50%;
     margin-right: 50%;
     left: -128px;
+    display: inline-block;
   }
   .intro{
     width: 720px;
@@ -45,6 +47,12 @@ html {
       color: white;
       text-decoration: none;
       @include opacity(1);
+      &:hover {
+        color: white;
+        border-bottom: 1px solid;
+        text-decoration: none;
+        @include opacity(1);
+      }
     }
     ul {
       list-style: none;
@@ -58,78 +66,67 @@ html {
   }
 }
 
-
-
-
 .about {
-
-  height: 250px;
+  height: 220px;
   color: rgba(137,137,137,1);
   line-height: 1.8em;
-  background: #fafafa;
+  background: #f5f5f5;
 }
 
 .about-title {
-
   height: 250px;
   font-family: "optima";
   font-size: 40px;
   text-align: center;
-
-}
-
-.about-title p {
-
-  vertical-align: middle;
-  margin-top: 100px;
-  font-style: italic;
-
+  p{
+    vertical-align: middle;
+    margin-top: 100px;
+    font-style: italic;
+  }
 }
 
 .about-us {
   height: 250px;
   font-family: 'Lato', sans-serif;
+  p{
+    font-size: 18px;
+    width: 600px;
+    margin: 60px auto;
+  }
 }
-
-.about-us p {
-
-  font-size: 18px;
-  width: 600px;
-  margin: 60px auto;
-}
-
 
 .product {
-
   height: 245px;
   background-image: url(../images/elbumproduct.png);
-
 }
 
 .product-img {
-
   height: 245px;
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.productimg{
+ margin: 30px 0 0 200px;
 }
 
 .product-info {
-
   height: 245px;
   font-family: "optima";
   font-size: 40px;
   text-align: center;
   color: white;
+  p {
+    vertical-align: middle;
+    margin-top: 100px;
+    font-style: italic;
+  }
 }
-
-.product-info p {
-  vertical-align: middle;
-  margin-top: 100px;
-  font-style: italic;
-}
-
 
 .team_title {
-
-  height: 150px;
+  height: 120px;
   font-size: 40px;
   color: rgba(137,137,137,1);
   font-family: 'Lato', sans-serif;
@@ -137,59 +134,89 @@ html {
   background: #fafafa;
 }
 
-.team_title p{
-  margin-top: 60px;
+.about-team {
+  padding: 40px;
 }
-
 
 .team {
-
   height: 600px;
   background-image:url(../images/team_member.jpg);
-
+  img{
+    width:160px;
+    height:160px;
+    margin-left: 0;
+  }
 }
 
-.team img {
-  width:160px;
-  height:160px;
-  margin-left: 0;
-}
-
-.span2 {
-  margin-left:-10px;
-
+.works{
+  font-family:"optima";
+  margin:30px 0 30px 0;
+  .work-info{
+    margin: 30px 0 0 100px;
+    h2{
+      font-size: 42px;
+    }
+    p{
+      margin-top: 10px;
+      font-size: 18px;
+      width: 280px;
+      line-height: 20px;
+    }
+    a{
+      font-size: 16px;
+      color: gray;
+    }
+  }
+  .work-img{
+    margin: 0 0 0 20px;
+    width: 300px;
+    height: 250px;
+  }
 }
 
 .member {
+  margin:40px 0 0 30px;
   height: 560px;
   color: #E5E4E2;
   font-family: "optima";
   line-height: 1.3em;
+  a{
+    color: #E5E4E2;
+    font-size: 18px;
+    &:hover{
+      color: silver;
+    }
+  }
+  .member-title {
+    margin:15px 0 15px 0 ;
+    font-size: 18px;
+  }
+
+  .member-bio {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .member-link {
+    margin:10px 5px 0 5px;
+  }
 }
 
-.member a {
 
-  color: #E5E4E2;
-  font-size: 18px;
+.wufoo{
+  margin-top: 20px;
 }
 
-.member-title {
-
-  margin:15px 0 15px 0 ;
-  font-size: 18px;
-
+.contact-info{
+  p{
+    color: #2B1B17;
+    font-family: "optima";
+    line-height: 1.5em;
+    font-size: 20px;
+    width: 190px;
+    margin: 20px 0 0 50px;
+  }
 }
-
-.member-bio {
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
-}
-
-.member-link {
-
-  margin:10px 5px 0 5px;
-}
-
 
 .footer {
   height: 30px;
@@ -198,8 +225,4 @@ html {
   color: #2B1B17;
   font-family: "optima";
   font-size: 18px;
-}
-
-.contact-box {
-  height: 500px;
 }
