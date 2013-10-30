@@ -16,14 +16,14 @@ members:
         url: "https://github.com/brianhu"
         class: "fa-github"
       - title: "Twitter"
-        url: "https://twitter.com/followers"
+        url: "https://twitter.com/BM_Hu"
         class: "fa-twitter"
       - title: "Facebook"
         url: "https://www.facebook.com/chihwei.hu1"
         class: "fa-facebook"
   - title: "Labrada | Designer"
     image: "web_head_labrada.png"
-    bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
+    bio: "Labrada is working on product, grap"
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/labrada.chang"
@@ -33,7 +33,7 @@ members:
         class: "fa-twitter"
   - title: "Roy | Product Manager"
     image: "web_head_roy.png"
-    bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
+    bio: "Roy is a dreamer, singer and basketball player, loving jogging, reading and cooking. He is also the the founder of Dreamers' Day, which is the biggest student startup community in Taiwan."
     links:
       - title: "Blog"
         url: "http://about.roykung.com/"
@@ -52,7 +52,7 @@ members:
     bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
     links:
       - title: "Blog"
-        url: "http://garylai.ch"
+        url: "http://about.garylai.ch"
         class: "fa-pencil"
       - title: "Github"
         url: "http://github.com/garylai1990"
@@ -65,7 +65,7 @@ members:
         class: "fa-facebook"
   - title: "Boyo | Developer"
     image: "web_head-boyo.png"
-    bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
+    bio: "Boyo is the studying Computer Sicience in National Taiwan Unerversity. He is also the member of baseball school team."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/profile.php?id=100001421548102"
