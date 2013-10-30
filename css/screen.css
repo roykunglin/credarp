@@ -74,7 +74,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 2, ../_sass/main.scss */
 html {
-  background-image: url('../images/../images/background.png?1382689442');
+  background-image: url('../images/{{ site.url }}/images/background.png');
   background-repeat: no-repeat;
   background-position: top left;
   -webkit-background-size: cover;
@@ -94,7 +94,7 @@ html {
 
 /* line 18, ../_sass/main.scss */
 .header {
-  background-image: url('../images/../images/credarp.png?1382684637');
+  background-image: url('../images/{{ site.url }}/images/credarp.png');
   background-repeat: no-repeat;
   background-position: top left;
   -webkit-background-size: cover;
