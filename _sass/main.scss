@@ -1,7 +1,7 @@
 @import "compass/css3";
 html {
   background: {
-    image: image-url("{{ site.url }}/images/background.png");
+    image: image-url("background.png");
     repeat: no-repeat;
     position: top left
   }
@@ -17,7 +17,7 @@ html {
 
 .header {
   background: {
-    image: image-url("{{ site.url }}/images/credarp.png");
+    image: image-url("credarp.png");
     repeat: no-repeat;
     position: top left
   }

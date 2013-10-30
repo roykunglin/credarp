@@ -1,6 +1,6 @@
 /* line 2, ../_sass/main.scss */
 html {
-  background-image: url('../images/{{ site.url }}/images/background.png');
+  background-image: url('../images/background.png?1382689442');
   background-repeat: no-repeat;
   background-position: top left;
   -webkit-background-size: cover;
@@ -20,7 +20,7 @@ html {
 
 /* line 18, ../_sass/main.scss */
 .header {
-  background-image: url('../images/{{ site.url }}/images/credarp.png');
+  background-image: url('../images/credarp.png?1382684637');
   background-repeat: no-repeat;
   background-position: top left;
   -webkit-background-size: cover;
