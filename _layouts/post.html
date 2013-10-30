@@ -1,11 +1,25 @@
 ---
 layout: default
 ---
-<h2>
-  {{ page.title }}
-</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
+<div class="row">
+  <div class="span12 blog-page">
+    <div class="row">
+      <div class="blog-post">
+        <div class="span3 blog-date">
+          <p class="meta">{{ page.date |  date: "%-d %B %Y" }}</p>
+        </div>
+        <div class="span9 blog-card">
+          <div class="blog-title">
+            <h2>
+              <a href="{{ post.url }}">{{ page.title }}</a>
+            </h2>
+          </div>
+          <div class="blog-content">
+            <p>{{ content }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

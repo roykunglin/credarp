@@ -1,13 +1,45 @@
 ---
 layout: default
-title: Credarp, Inc.
 ---
 
+<div class="row">
+  <div class="span12 ">
+    <div class="works">
+      <div class="row">
+        <div class="span6">
+          <div class="work-info">
+            <h2>elbum - web</h2>
+            <p>elbum is an analytic tool for sport teams to track, collect and organize their statistics.</p>
+            <p><a href="http://elbum.in">http://elbum.in</a><p>
+            </div>
+          </div>
+          <div class="span6 ">
+            <div class="work-img">
+              <img src="{{ site.url }}/images/elbum-web.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="row"> 
-   <div class="span12 contact-box">
-          <iframe src="https://docs.google.com/forms/d/1thLOvIIvs_fNETtmDYywj1wHqi2pD9fopILIRn9pnC4/viewform?embedded=true" width="940" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
-   </div>
-   <div class="span12 google-doc"></div>   
-</div>
 
+  <div class="row">
+    <div class="span12 team">
+      {% for member in site.members%}
+      <div class="span2 member" >
+        <img src="../images/{{ member.image }}">
+        <div class="member-title">{{ member.title }}</div>
+        <div class="member-bio">{{ member.bio }}</div>
+
+        <div class="member-link">
+          {% for link in member.links %}
+          <a target="_blank" href="{{ link.url}}" title="{{ link.title }}">
+            <i class="fa icon-2x {{ link.class }}"></i>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
