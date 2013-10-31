@@ -1,48 +1,48 @@
-/* line 2, ../_sass/blog.scss */
+/* line 1, ../_sass/blog.scss */
 .blog-page {
   margin-top: 20px;
 }
 
-/* line 7, ../_sass/blog.scss */
+/* line 5, ../_sass/blog.scss */
 .blog-post {
   margin: 30px 0 0 0;
 }
 
-/* line 15, ../_sass/blog.scss */
+/* line 10, ../_sass/blog.scss */
 .blog-date p {
   font-family: 'Lato', sans-serif;
   font-size: 32px;
   color: #2B1B17;
 }
 
-/* line 23, ../_sass/blog.scss */
+/* line 18, ../_sass/blog.scss */
 .blog-card {
   border-bottom: 1px dashed gray;
   padding-bottom: 20px;
   font-family: "optima";
 }
-/* line 27, ../_sass/blog.scss */
+/* line 22, ../_sass/blog.scss */
 .blog-card .blog-title {
   margin-bottom: 20px;
 }
-/* line 29, ../_sass/blog.scss */
+/* line 24, ../_sass/blog.scss */
 .blog-card .blog-title h2 {
   font-family: "SketchBlock-Bold", sans-serif;
   font-size: 36px;
   font-style: bold;
 }
-/* line 34, ../_sass/blog.scss */
+/* line 29, ../_sass/blog.scss */
 .blog-card .blog-title a {
   text-decoration: none;
   color: #463E3F;
 }
-/* line 40, ../_sass/blog.scss */
+/* line 35, ../_sass/blog.scss */
 .blog-card .blog-content p {
   font-size: 16px;
   line-height: 1.5em;
   margin: 10px 0;
 }
-/* line 45, ../_sass/blog.scss */
+/* line 40, ../_sass/blog.scss */
 .blog-card .blog-content a {
   color: #0099cb;
 }
