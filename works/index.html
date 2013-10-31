@@ -3,39 +3,37 @@ layout: default
 ---
 
 <div class="row">
-      <div class="row">
-            <h2>elbum - web</h2>
-            <p>elbum is an analytic tool for sport teams to track, collect and organize their statistics.</p>
-            </div>
-          </div>
-          <div class="span6 ">
-          </div>
-        </div>
   <div class="span12 works">
+    <div class="row">
       <div class="offset1 span5 work-info">
+          <h2>elbum - web</h2>
+          <p>
+            elbum is an analytic tool for sport teams to track, collect and organize their statistics.
+          </p>
           <a href="http://elbum.in">http://elbum.in</a>
       </div>
+      <div class="span6">
         <img src="{{ site.url }}/images/elbum-web.png" class="work-img">
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="span12 team">
-      {% for member in site.members%}
-      <div class="span2 member" >
-        <img src="../images/{{ member.image }}">
-        <div class="member-title">{{ member.title }}</div>
-        <div class="member-bio">{{ member.bio }}</div>
-
-        <div class="member-link">
-          {% for link in member.links %}
-          <a target="_blank" href="{{ link.url}}" title="{{ link.title }}">
-            <i class="fa icon-2x {{ link.class }}"></i>
-          </a>
-          {% endfor %}
-        </div>
       </div>
-      {% endfor %}
     </div>
   </div>
+</div>
+<div class="row">
+  <div class="span12 team">
+    {% for member in site.members%}
+    <div class="span2 member" >
+      <img src="../images/{{ member.image }}">
+      <div class="member-title">{{ member.title }}</div>
+      <div class="member-bio">{{ member.bio }}</div>
+
+      <div class="member-link">
+        {% for link in member.links %}
+        <a target="_blank" href="{{ link.url}}" title="{{ link.title }}">
+          <i class="fa icon-2x {{ link.class }}"></i>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
