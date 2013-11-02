@@ -5,7 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-position: top left;
-  background-image: url('../images/background.png?1382697718');
+  background-image: url('../images/background.png?1382689442');
   background-repeat: no-repeat;
 }
 
@@ -17,7 +17,7 @@ html {
   background-size: cover;
   text-align: center;
   background-position: top left;
-  background-image: url('../images/credarp.png?1382697338');
+  background-image: url('../images/credarp_header.jpg?1380794090');
   background-repeat: no-repeat;
 }
 /* line 19, ../_sass/main.scss */
