@@ -7,7 +7,7 @@ teamtitle: "WE MAKE AWESOME STUFF !"
 members:
   - title: "Brian | Developer"
     image: "web_head_brian.png"
-    bio: "I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan.I'm a dreamer, singer and basketball player, loving jogging, reading and cooking, and now running a startup in Taipei, Taiwan."
+    bio: "Brian is a software engineer who wants to make the world better by his code. He likes baseball, reading novels, and doing tai chi."
     links:
       - title: "Blog"
         url: "http://brian.logdown.com/"
@@ -23,7 +23,7 @@ members:
         class: "fa-facebook"
   - title: "Labrada | Designer"
     image: "web_head_labrada.png"
-    bio: "Labrada is major in industrial design and now working on product, graphic, media and UI design. His favorite food is dumpling bun and bean milk. He eat EVERYDAY."
+    bio: "Labrada is major in industrial design and now working on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/labrada.chang"
@@ -33,7 +33,7 @@ members:
         class: "fa-twitter"
   - title: "Roy | Product Manager"
     image: "web_head_roy.png"
-    bio: "Roy is a dreamer, singer and basketball player, loving jogging, reading and cooking. He is also the the founder of Dreamers' Day, which is the biggest student startup community in Taiwan.Brian and I started it because we believed that students should have entrepreneurship. There were 5 demo shows and 20 meet ups both in Taipei and Tainan, and over 300 students participated."
+    bio: "Roy is a dreamer, singer and basketball player, loving jogging, reading and cooking. He is also the the founder of Dreamers' Day, which is the biggest student startup community in Taiwan. "
     links:
       - title: "Blog"
         url: "http://about.roykung.com/"
@@ -49,7 +49,7 @@ members:
         class: "fa-facebook"
   - title: "Gary | Developer"
     image: "web_head_gary.png"
-    bio: "Started working with ruby on rails in late 2011 and since then I worked on a wide variety of projects and website. Recently, I'm prepareing to apply a master degree in US, and in my free time, I am the web developer of Credarp, company found by my friends, to boost their product development. Also, I maintain some websites, you can find in my personal pages."
+    bio: "Started working with ruby on rails in late 2011 and since then I worked on a wide variety of projects and website. Recently, I'm prepareing to apply a master degree in US, and in my free time, I am the web developer of Credarp to boost their product development."
     links:
       - title: "Blog"
         url: "http://about.garylai.ch"
@@ -65,7 +65,7 @@ members:
         class: "fa-facebook"
   - title: "Boyo | Developer"
     image: "web_head-boyo.png"
-    bio: "Boyo is the studying Computer Sicience in National Taiwan Unerversity, and now woring on Android development. He is also the member of baseball school team."
+    bio: "Boyo is studying Computer Sicience in National Taiwan Unerversity, and now woring on android version development. He is also the member of baseball school team."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/profile.php?id=100001421548102"

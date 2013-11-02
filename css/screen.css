@@ -271,7 +271,7 @@ html {
   height: 560px;
   color: #E5E4E2;
   font-family: "optima";
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 /* line 169, ../_sass/main.scss */
 .member a {
@@ -284,7 +284,7 @@ html {
 }
 /* line 176, ../_sass/main.scss */
 .member .member-title {
-  margin: 15px 0 15px 0;
+  margin: 20px 0 20px 0;
   font-size: 18px;
 }
 /* line 181, ../_sass/main.scss */
