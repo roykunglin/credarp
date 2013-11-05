@@ -40,7 +40,8 @@ Browsse [http://localhost:4000](http://localhost:4000).
 
 Commit all of your files and push to master and run the command below:
 ```
-$ ./deploy
+$ rake build    # Compile all files into the build directory
+$ rake publish  # Build and publish to Github Pages
 ```
 
 # Contributors
