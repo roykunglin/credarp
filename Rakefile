@@ -1,10 +1,11 @@
-require "rubygems"
+require 'rubygems'
 require 'rake'
 require 'yaml'
 require 'time'
 require 'hz2py'
 require 'json'
 require 'open-uri'
+require 'middleman-gh-pages'
 
 SOURCE = "."
 CONFIG = {
