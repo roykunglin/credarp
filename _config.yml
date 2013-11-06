@@ -70,6 +70,12 @@ members:
       - title: "Facebook"
         url: "https://www.facebook.com/profile.php?id=100001421548102"
         class: "fa-facebook"
+works:
+  - title: "elbum - web"
+    description: "elbum is an analytic tool for sport teams to track, collect and organize their statistics."
+    url: "http://elbum.in"
+    urlname: "http://elbum.in"
+    image: "elbumweb.png"
 
 ## settings
 
