@@ -1,6 +1,6 @@
 /* line 2, ../_sass/main.scss */
 html {
-  background: url('../images/back2.png?1383634999') no-repeat center center fixed;
+  background: url('../images/back2.png?1383705037') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,37 +159,6 @@ html {
 }
 
 /* line 134, ../_sass/main.scss */
-.works {
-  margin: 30px 0 30px 0;
-  font-family: "optima";
-}
-/* line 137, ../_sass/main.scss */
-.works .work-info {
-  padding: 30px 0 0 0;
-}
-/* line 139, ../_sass/main.scss */
-.works .work-info h2 {
-  font-size: 42px;
-}
-/* line 142, ../_sass/main.scss */
-.works .work-info p {
-  margin-top: 10px;
-  font-size: 18px;
-  line-height: 20px;
-}
-/* line 147, ../_sass/main.scss */
-.works .work-info a {
-  color: gray;
-  font-size: 16px;
-}
-/* line 152, ../_sass/main.scss */
-.works .work-img {
-  margin: 0 0 0 20px;
-  width: 300px;
-  height: 250px;
-}
-
-/* line 159, ../_sass/main.scss */
 .member {
   margin: 40px 0 0 30px;
   height: 560px;
@@ -197,36 +166,36 @@ html {
   font-family: "optima";
   line-height: 1.4em;
 }
-/* line 165, ../_sass/main.scss */
+/* line 140, ../_sass/main.scss */
 .member a {
   color: #E5E4E2;
   font-size: 18px;
 }
-/* line 168, ../_sass/main.scss */
+/* line 143, ../_sass/main.scss */
 .member a:hover {
   color: silver;
 }
-/* line 172, ../_sass/main.scss */
+/* line 147, ../_sass/main.scss */
 .member .member-title {
   margin: 20px 0 20px 0;
   font-size: 18px;
 }
-/* line 177, ../_sass/main.scss */
+/* line 151, ../_sass/main.scss */
 .member .member-bio {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
-/* line 182, ../_sass/main.scss */
+/* line 155, ../_sass/main.scss */
 .member .member-link {
   margin: 10px 5px 0 5px;
 }
 
-/* line 187, ../_sass/main.scss */
+/* line 160, ../_sass/main.scss */
 .wufoo {
   margin-top: 20px;
 }
 
-/* line 192, ../_sass/main.scss */
+/* line 165, ../_sass/main.scss */
 .contact-info p {
   margin: 20px 0 0 50px;
   width: 190px;
@@ -236,7 +205,7 @@ html {
   line-height: 1.5em;
 }
 
-/* line 202, ../_sass/main.scss */
+/* line 175, ../_sass/main.scss */
 .footer {
   margin: 20px auto;
   height: 30px;

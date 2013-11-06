@@ -131,31 +131,6 @@ html {
   }
 }
 
-.works{
-  margin:30px 0 30px 0;
-  font-family:"optima";
-  .work-info{
-    padding: 30px 0 0 0;
-    h2{
-      font-size: 42px;
-    }
-    p{
-      margin-top: 10px;
-      font-size: 18px;
-      line-height: 20px;
-    }
-    a{
-      color: gray;
-      font-size: 16px;
-    }
-  }
-  .work-img{
-    margin: 0 0 0 20px;
-    width: 300px;
-    height: 250px;
-  }
-}
-
 .member {
   margin:40px 0 0 30px;
   height: 560px;
@@ -173,12 +148,10 @@ html {
     margin:20px 0 20px 0 ;
     font-size: 18px;
   }
-
   .member-bio {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
   }
-
   .member-link {
     margin:10px 5px 0 5px;
   }
