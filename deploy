@@ -3,7 +3,9 @@
 upstream=$1
 : ${upstream:=origin}
 git pull $upstream master || exit -1
-git push :$upstream/gh-pages
+git branch -D gh-pages
+git push $upstream :gh-pages
+git branch gh-pages
 git branch -f gh-pages $upstream/gh-pages
 rm -rf _site
 git clone -s . -b gh-pages _site
