@@ -1,7 +1,7 @@
 name: Credarp
 URL: http://credarp.com
 description: "credarp"
-tagline: " We make web and native mobile app at Credarp. Our product is elbum.in, an analytic tool for sport teams to track, collect and organize their statistics. We also develop Ruby on Rails and iOS projects. This company was been estalblished by Roy, Brian and Labrada in July 2013."
+tagline: " We build web and native mobile app at Credarp. Our product is elbum.in, an analytic tool for sport teams to track, collect and organize their statistics. We also develop Ruby on Rails and iOS projects. This company was been estalblished by Roy, Brian and Labrada in July 2013."
 teamtitle: "WE MAKE AWESOME STUFF !"
 
 members:
@@ -49,7 +49,7 @@ members:
         class: "fa-facebook"
   - title: "Gary | Developer"
     image: "web_head_gary.png"
-    bio: "Started working with ruby on rails in late 2011 and since then I worked on a wide variety of projects and website. Recently, I'm prepareing to apply a master degree in US, and in my free time, I am the web developer of Credarp to boost their product development."
+    bio: "Started working with ruby on rails in late 2011 and since then I worked on a wide variety of projects and website. I am the web developer of Credarp to boost its product development."
     links:
       - title: "Blog"
         url: "http://about.garylai.ch"
@@ -65,7 +65,7 @@ members:
         class: "fa-facebook"
   - title: "Boyo | Developer"
     image: "web_head-boyo.png"
-    bio: "Boyo is studying Computer Sicience in National Taiwan Unerversity, and now woring on android version development. He is also the member of baseball school team."
+    bio: "Boyo Chen is a 19-year old boy. He is also a member of NTU baseball team. Having strong interest in programming, he wishes to do more and learn more so as to get ready of devoting himself to the computer science world."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/profile.php?id=100001421548102"
