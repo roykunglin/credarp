@@ -1,11 +1,7 @@
 @import "compass/css3";
 html {
+  background: image-url("back2.png") no-repeat center center fixed;
   @include background-size(cover);
-  background: {
-    position: top left;
-    image: image-url("background.png");
-    repeat: no-repeat;
-  }
 }
 
 .header {

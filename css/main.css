@@ -1,15 +1,13 @@
 /* line 2, ../_sass/main.scss */
 html {
+  background: url('../images/back2.png?1383634999') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top left;
-  background-image: url('../images/background.png?1382689442');
-  background-repeat: no-repeat;
 }
 
-/* line 11, ../_sass/main.scss */
+/* line 7, ../_sass/main.scss */
 .header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,7 +18,7 @@ html {
   background-image: url('../images/credarp_header.jpg?1380794090');
   background-repeat: no-repeat;
 }
-/* line 19, ../_sass/main.scss */
+/* line 15, ../_sass/main.scss */
 .header .logo {
   position: relative;
   left: -128px;
@@ -30,7 +28,7 @@ html {
   margin-left: 50%;
   width: 256px;
 }
-/* line 28, ../_sass/main.scss */
+/* line 24, ../_sass/main.scss */
 .header .intro {
   color: white;
   font-style: italic;
@@ -38,7 +36,7 @@ html {
   font-family: "optima";
   line-height: 90px;
 }
-/* line 35, ../_sass/main.scss */
+/* line 31, ../_sass/main.scss */
 .header .menu {
   margin: 0px;
   height: 70px;
@@ -46,28 +44,28 @@ html {
   font-size: 28px;
   font-family: 'Lato', sans-serif;
 }
-/* line 41, ../_sass/main.scss */
+/* line 37, ../_sass/main.scss */
 .header .menu ul {
   list-style: none;
 }
-/* line 43, ../_sass/main.scss */
+/* line 39, ../_sass/main.scss */
 .header .menu ul li {
   display: inline-block;
   margin: 20px 50px;
 }
-/* line 46, ../_sass/main.scss */
+/* line 42, ../_sass/main.scss */
 .header .menu ul li a {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   color: white;
   text-decoration: none;
 }
-/* line 50, ../_sass/main.scss */
+/* line 46, ../_sass/main.scss */
 .header .menu ul li a:hover {
   border-bottom: 1px solid;
 }
 
-/* line 59, ../_sass/main.scss */
+/* line 55, ../_sass/main.scss */
 .about {
   height: 220px;
   background: #f5f5f5;
@@ -75,7 +73,7 @@ html {
   line-height: 1.8em;
 }
 
-/* line 66, ../_sass/main.scss */
+/* line 62, ../_sass/main.scss */
 .about-title {
   margin-top: 100px;
   height: 250px;
@@ -86,39 +84,39 @@ html {
   font-family: "optima";
 }
 
-/* line 76, ../_sass/main.scss */
+/* line 72, ../_sass/main.scss */
 .about-us {
   height: 250px;
   font-family: 'Lato', sans-serif;
 }
-/* line 79, ../_sass/main.scss */
+/* line 75, ../_sass/main.scss */
 .about-us p {
   margin: 60px auto;
   font-size: 18px;
 }
 
-/* line 85, ../_sass/main.scss */
+/* line 81, ../_sass/main.scss */
 .product {
   height: 245px;
   background-image: url(../images/elbumproduct.png);
 }
 
-/* line 90, ../_sass/main.scss */
+/* line 86, ../_sass/main.scss */
 .product-img {
   height: 245px;
 }
-/* line 92, ../_sass/main.scss */
+/* line 88, ../_sass/main.scss */
 .product-img img {
   width: 200px;
   height: 200px;
 }
 
-/* line 98, ../_sass/main.scss */
+/* line 94, ../_sass/main.scss */
 .productimg {
   margin: 30px 0 0 200px;
 }
 
-/* line 102, ../_sass/main.scss */
+/* line 98, ../_sass/main.scss */
 .product-info {
   height: 245px;
   color: white;
@@ -126,14 +124,14 @@ html {
   font-size: 40px;
   font-family: "optima";
 }
-/* line 108, ../_sass/main.scss */
+/* line 104, ../_sass/main.scss */
 .product-info p {
   margin-top: 100px;
   vertical-align: middle;
   font-style: italic;
 }
 
-/* line 115, ../_sass/main.scss */
+/* line 111, ../_sass/main.scss */
 .team_title {
   height: 120px;
   background: #fafafa;
@@ -143,55 +141,55 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 124, ../_sass/main.scss */
+/* line 120, ../_sass/main.scss */
 .about-team {
   padding: 40px;
 }
 
-/* line 128, ../_sass/main.scss */
+/* line 124, ../_sass/main.scss */
 .team {
   height: 600px;
   background-image: url(../images/team_member.jpg);
 }
-/* line 131, ../_sass/main.scss */
+/* line 127, ../_sass/main.scss */
 .team img {
   margin-left: 0;
   width: 160px;
   height: 160px;
 }
 
-/* line 138, ../_sass/main.scss */
+/* line 134, ../_sass/main.scss */
 .works {
   margin: 30px 0 30px 0;
   font-family: "optima";
 }
-/* line 141, ../_sass/main.scss */
+/* line 137, ../_sass/main.scss */
 .works .work-info {
   padding: 30px 0 0 0;
 }
-/* line 143, ../_sass/main.scss */
+/* line 139, ../_sass/main.scss */
 .works .work-info h2 {
   font-size: 42px;
 }
-/* line 146, ../_sass/main.scss */
+/* line 142, ../_sass/main.scss */
 .works .work-info p {
   margin-top: 10px;
   font-size: 18px;
   line-height: 20px;
 }
-/* line 151, ../_sass/main.scss */
+/* line 147, ../_sass/main.scss */
 .works .work-info a {
   color: gray;
   font-size: 16px;
 }
-/* line 156, ../_sass/main.scss */
+/* line 152, ../_sass/main.scss */
 .works .work-img {
   margin: 0 0 0 20px;
   width: 300px;
   height: 250px;
 }
 
-/* line 163, ../_sass/main.scss */
+/* line 159, ../_sass/main.scss */
 .member {
   margin: 40px 0 0 30px;
   height: 560px;
@@ -199,36 +197,36 @@ html {
   font-family: "optima";
   line-height: 1.4em;
 }
-/* line 169, ../_sass/main.scss */
+/* line 165, ../_sass/main.scss */
 .member a {
   color: #E5E4E2;
   font-size: 18px;
 }
-/* line 172, ../_sass/main.scss */
+/* line 168, ../_sass/main.scss */
 .member a:hover {
   color: silver;
 }
-/* line 176, ../_sass/main.scss */
+/* line 172, ../_sass/main.scss */
 .member .member-title {
   margin: 20px 0 20px 0;
   font-size: 18px;
 }
-/* line 181, ../_sass/main.scss */
+/* line 177, ../_sass/main.scss */
 .member .member-bio {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
-/* line 186, ../_sass/main.scss */
+/* line 182, ../_sass/main.scss */
 .member .member-link {
   margin: 10px 5px 0 5px;
 }
 
-/* line 191, ../_sass/main.scss */
+/* line 187, ../_sass/main.scss */
 .wufoo {
   margin-top: 20px;
 }
 
-/* line 196, ../_sass/main.scss */
+/* line 192, ../_sass/main.scss */
 .contact-info p {
   margin: 20px 0 0 50px;
   width: 190px;
@@ -238,7 +236,7 @@ html {
   line-height: 1.5em;
 }
 
-/* line 206, ../_sass/main.scss */
+/* line 202, ../_sass/main.scss */
 .footer {
   margin: 20px auto;
   height: 30px;
