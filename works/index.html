@@ -3,20 +3,25 @@ layout: default
 ---
 
 <div class="row">
-  <div class="span12 works">
-    {% for work in site.works%}
-    <div class="row">
-      <div class="offset2 span5 work-info">
-          <h2>{{ works.title }}</h2>
-          <p>{{ works.description }}</p>
+  {% for work in site.works%}
+    {% assign i = forloop.index | modulo:2 %}
+    {% if i == 0 %}
+    <div class="span12 works even">
+    {% else %}
+    <div class="span12 works odd">
+    {% endif %}
+      <div class="row">
+        <div class="offset2 span5 work-info">
+          <h2>{{ work.title }}</h2>
+          <p>{{ work.description }}</p>
           <a href="http://elbum.in"></a>
-      </div>
-      <div class="span4">
-        <img src="../images/works/{{ works.image }}" class="work-img">
+        </div>
+        <div class="span4">
+          <img src="../images/works/{{ work.image }}" class="work-img">
+        </div>
       </div>
     </div>
     {% endfor %}
-  </div>
 </div>
 <div class="row">
   <div class="span12 team">

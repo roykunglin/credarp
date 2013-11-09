@@ -292,19 +292,18 @@ html {
 /* line 1, ../_sass/works.scss */
 .works {
   font-family: "optima";
-  background-color: #ffffff;
 }
-/* line 4, ../_sass/works.scss */
+/* line 3, ../_sass/works.scss */
 .works .work-info {
   padding: 50px 0 0 0;
 }
-/* line 6, ../_sass/works.scss */
+/* line 5, ../_sass/works.scss */
 .works .work-info h2 {
   font-size: 42px;
   font-style: italic;
   color: #898989;
 }
-/* line 11, ../_sass/works.scss */
+/* line 10, ../_sass/works.scss */
 .works .work-info p {
   margin: 10px 0;
   font-size: 18px;
@@ -312,16 +311,27 @@ html {
   width: 300px;
   color: #393939;
 }
-/* line 18, ../_sass/works.scss */
+/* line 17, ../_sass/works.scss */
 .works .work-info a {
   color: gray;
   font-size: 18px;
 }
-/* line 23, ../_sass/works.scss */
+/* line 22, ../_sass/works.scss */
 .works .work-img {
   margin: 20px;
   width: 200px;
   height: 200px;
+  border: 8px solid #D8D8D8;
+}
+
+/* line 29, ../_sass/works.scss */
+.odd {
+  background-color: #ffffff;
+}
+
+/* line 32, ../_sass/works.scss */
+.even {
+  background-color: #fafafa;
 }
 
 /* line 1, ../_sass/blog.scss */
