@@ -23,7 +23,7 @@ members:
         class: "fa-facebook"
   - title: "Labrada | Designer"
     image: "web_head_labrada.png"
-    bio: "Labrada is major in industrial design and now working on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY."
+    bio: "Labrada  major in industrial design and now works on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/labrada.chang"
@@ -31,7 +31,7 @@ members:
       - title: "Twitter"
         url: "http://twitter.com/labradachang"
         class: "fa-twitter"
-  - title: "Roy | Product Manager"
+  - title: "Roy | Product Designer"
     image: "web_head_roy.png"
     bio: "Roy is a dreamer, singer and basketball player, loving jogging, reading and cooking. He is also the the founder of Dreamers' Day, which is the biggest student startup community in Taiwan. "
     links:
@@ -71,12 +71,26 @@ members:
         url: "https://www.facebook.com/profile.php?id=100001421548102"
         class: "fa-facebook"
 works:
-  - title: "elbum - web"
+  - title: "elbum - Web"
     description: "elbum is an analytic tool for sport teams to track, collect and organize their statistics."
     url: "http://elbum.in"
     urlname: "http://elbum.in"
     image: "elbumweb.png"
-
+  - title: "elbum - iOS App"
+    description: "The best tracking stats App for basketball. We design the a great app UI to make tracking easy."
+    url: "http://elbum.in"
+    urlname: "http://elbum.in"
+    image: "elbumapp.jpg"
+  - title: "Wine App"
+    description: "This app is designed for tasting wine and dicovering recipe."
+    url:
+    urlname:
+    image: "wineapp.png"
+  - title: "台灣眼科教授醫學會"
+    description: "Taiwan Academy of Ophthalmology (TWAO)"
+    url:
+    urlname:
+    image: "eye.png"
 ## settings
 
 permalink: /blog/:year/:month/:day/:title/
