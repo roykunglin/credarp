@@ -1,7 +1,7 @@
 name: Credarp
 URL: http://credarp.com
 description: "credarp"
-tagline: " We build web and native mobile app at Credarp. Our product is elbum.in, an analytic tool for sport teams to track, collect and organize their statistics. We also develop Ruby on Rails and iOS projects. This company was been estalblished by Roy, Brian and Labrada in July 2013."
+tagline: " We build web and native mobile app at Credarp. Our product is elbum.in, an analytic tool for sport teams to track, collect and organize their statistics. We also develop Ruby on Rails and iOS projects. This company was established by Roy, Brian and Labrada in July 2013."
 teamtitle: "WE MAKE AWESOME STUFF !"
 
 members:
@@ -23,7 +23,7 @@ members:
         class: "fa-facebook"
   - title: "Labrada | Designer"
     image: "web_head_labrada.png"
-    bio: "Labrada  major in industrial design and now works on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY."
+    bio: "Labrada  majors in industrial design and now works on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY."
     links:
       - title: "Facebook"
         url: "https://www.facebook.com/labrada.chang"
