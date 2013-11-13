@@ -1,44 +1,245 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="viewport" content="width=device-width">
+  <!-- SCSS, baby -->
+  <link rel="stylesheet" href="/css/screen.css">
+  <!-- boostrap.css -->
+  <link rel="stylesheet" href="/css/grid.css">
+  <!-- fontawesome.css-->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+  <!-- goole fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<div class="row">
-  {% for work in site.works%}
-    {% assign i = forloop.index | modulo:2 %}
-    {% if i == 0 %}
-    <div class="span12 works even">
-    {% else %}
+  ga('create', 'UA-42859346-2', 'credarp.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+  <div class="logo">
+    <a href="/"><img src="/images/credarp_logo.png"></a>
+  </div>
+  <div class="intro">
+    Keep Simple, Keep Small.
+  </div>
+  <div class="menu">
+    <ul>
+      <li>
+        <a href="/works">Works</a>
+      </li>
+
+      <li>
+        <a href="/blog/">Blog</a>
+      </li>
+
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+    <div class="row">
+  
+    
+    
     <div class="span12 works odd">
-    {% endif %}
+    
       <div class="row">
         <div class="offset2 span5 work-info">
-          <h2>{{ work.title }}</h2>
-          <p>{{ work.description }}</p>
+          <h2>elbum - Web</h2>
+          <p>elbum is an analytic tool for sport teams to track, collect and organize their statistics.</p>
           <a href="http://elbum.in"></a>
         </div>
         <div class="span4">
-          <img src="../images/works/{{ work.image }}" class="work-img">
+          <img src="../images/works/elbumweb.png" class="work-img">
         </div>
       </div>
     </div>
-    {% endfor %}
+    
+    
+    
+    <div class="span12 works even">
+    
+      <div class="row">
+        <div class="offset2 span5 work-info">
+          <h2>elbum - iOS App</h2>
+          <p>The best tracking stats App for basketball. We design the a great app UI to make tracking easy.</p>
+          <a href="http://elbum.in"></a>
+        </div>
+        <div class="span4">
+          <img src="../images/works/elbumapp.jpg" class="work-img">
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="span12 works odd">
+    
+      <div class="row">
+        <div class="offset2 span5 work-info">
+          <h2>Wine App</h2>
+          <p>This app is designed for tasting wine and dicovering recipe.</p>
+          <a href="http://elbum.in"></a>
+        </div>
+        <div class="span4">
+          <img src="../images/works/wineapp.png" class="work-img">
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="span12 works even">
+    
+      <div class="row">
+        <div class="offset2 span5 work-info">
+          <h2>台灣眼科教授醫學會</h2>
+          <p>Taiwan Academy of Ophthalmology (TWAO)</p>
+          <a href="http://elbum.in"></a>
+        </div>
+        <div class="span4">
+          <img src="../images/works/eye.png" class="work-img">
+        </div>
+      </div>
+    </div>
+    
 </div>
 <div class="row">
   <div class="span12 team">
-    {% for member in site.members%}
+    
     <div class="span2 member" >
-      <img src="../images/{{ member.image }}">
-      <div class="member-title">{{ member.title }}</div>
-      <div class="member-bio">{{ member.bio }}</div>
+      <img src="../images/web_head_brian.png">
+      <div class="member-title">Brian | Developer</div>
+      <div class="member-bio">Brian is a software engineer who wants to make the world better by his code. He likes baseball, reading novels, and doing tai chi.</div>
 
       <div class="member-link">
-        {% for link in member.links %}
-        <a target="_blank" href="{{ link.url}}" title="{{ link.title }}">
-          <i class="fa icon-2x {{ link.class }}"></i>
+        
+        <a target="_blank" href="http://brian.logdown.com/" title="Blog">
+          <i class="fa icon-2x fa-pencil"></i>
         </a>
-        {% endfor %}
+        
+        <a target="_blank" href="https://github.com/brianhu" title="Github">
+          <i class="fa icon-2x fa-github"></i>
+        </a>
+        
+        <a target="_blank" href="https://twitter.com/BM_Hu" title="Twitter">
+          <i class="fa icon-2x fa-twitter"></i>
+        </a>
+        
+        <a target="_blank" href="https://www.facebook.com/chihwei.hu1" title="Facebook">
+          <i class="fa icon-2x fa-facebook"></i>
+        </a>
+        
       </div>
     </div>
-    {% endfor %}
+    
+    <div class="span2 member" >
+      <img src="../images/web_head_labrada.png">
+      <div class="member-title">Labrada | Designer</div>
+      <div class="member-bio">Labrada  majors in industrial design and now works on product, graphic, media and UI design. His favorite food is dumpling bun and soy milk. He eat EVERYDAY.</div>
+
+      <div class="member-link">
+        
+        <a target="_blank" href="https://www.facebook.com/labrada.chang" title="Facebook">
+          <i class="fa icon-2x fa-facebook"></i>
+        </a>
+        
+        <a target="_blank" href="http://twitter.com/labradachang" title="Twitter">
+          <i class="fa icon-2x fa-twitter"></i>
+        </a>
+        
+      </div>
+    </div>
+    
+    <div class="span2 member" >
+      <img src="../images/web_head_roy.png">
+      <div class="member-title">Roy | Product Designer</div>
+      <div class="member-bio">Roy is a dreamer, singer and basketball player, loving jogging, reading and cooking. He is also the the founder of Dreamers' Day, which is the biggest student startup community in Taiwan. </div>
+
+      <div class="member-link">
+        
+        <a target="_blank" href="http://about.roykung.com/" title="Blog">
+          <i class="fa icon-2x fa-pencil"></i>
+        </a>
+        
+        <a target="_blank" href="http://http://github.com/roykunglin" title="Github">
+          <i class="fa icon-2x fa-github"></i>
+        </a>
+        
+        <a target="_blank" href="http://twitter.com/roylinkung" title="Twitter">
+          <i class="fa icon-2x fa-twitter"></i>
+        </a>
+        
+        <a target="_blank" href="http://facebook.com/roylinkung" title="Facebook">
+          <i class="fa icon-2x fa-facebook"></i>
+        </a>
+        
+      </div>
+    </div>
+    
+    <div class="span2 member" >
+      <img src="../images/web_head_gary.png">
+      <div class="member-title">Gary | Developer</div>
+      <div class="member-bio">Started working with ruby on rails in late 2011 and since then I worked on a wide variety of projects and website. I am the web developer of Credarp to boost its product development.</div>
+
+      <div class="member-link">
+        
+        <a target="_blank" href="http://about.garylai.ch" title="Blog">
+          <i class="fa icon-2x fa-pencil"></i>
+        </a>
+        
+        <a target="_blank" href="http://github.com/garylai1990" title="Github">
+          <i class="fa icon-2x fa-github"></i>
+        </a>
+        
+        <a target="_blank" href="http://github.com/garylai1990" title="Twitter">
+          <i class="fa icon-2x fa-twitter"></i>
+        </a>
+        
+        <a target="_blank" href="https://www.facebook.com/GaryLai.CH" title="Facebook">
+          <i class="fa icon-2x fa-facebook"></i>
+        </a>
+        
+      </div>
+    </div>
+    
+    <div class="span2 member" >
+      <img src="../images/web_head-boyo.png">
+      <div class="member-title">Boyo | Developer</div>
+      <div class="member-bio">Boyo Chen is a 19-year old boy. He is also a member of NTU baseball team. Having strong interest in programming, he wishes to do more and learn more so as to get ready of devoting himself to the computer science world.</div>
+
+      <div class="member-link">
+        
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100001421548102" title="Facebook">
+          <i class="fa icon-2x fa-facebook"></i>
+        </a>
+        
+      </div>
+    </div>
+    
   </div>
 </div>
+    <div class="span12 footer">
+
+
+  Copyright@2013 Credarp, Inc All rights reserved.
+
+      <a href="https://twitter.com/credarp" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @twitterapi</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+  </div>
+</body>
+</html>
